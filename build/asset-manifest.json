@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Flanker-shyam/portfolio-2/static/css/main.eb541fa0.css",
+    "main.js": "/Flanker-shyam/portfolio-2/static/js/main.d570b1f5.js",
+    "index.html": "/Flanker-shyam/portfolio-2/index.html",
+    "main.eb541fa0.css.map": "/Flanker-shyam/portfolio-2/static/css/main.eb541fa0.css.map",
+    "main.d570b1f5.js.map": "/Flanker-shyam/portfolio-2/static/js/main.d570b1f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb541fa0.css",
+    "static/js/main.d570b1f5.js"
+  ]
+}

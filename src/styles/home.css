@@ -99,6 +99,8 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: #f8f9fa;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   
   #skillsMain {

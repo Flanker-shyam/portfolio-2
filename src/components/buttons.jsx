@@ -99,18 +99,6 @@ const Buttons = () => {
         sx={{ zIndex: 2000 }}
       >
         <List>
-          <ListItem button>
-            <ListItemText primary="PORTFOLIO" />
-          </ListItem>
-          <ListItem button>
-            <ListItemText primary="ABOUT" />
-          </ListItem>
-          <ListItem button>
-            <ListItemText primary="RESUME" />
-          </ListItem>
-          <ListItem button>
-            <ListItemText primary="CONTACT" />
-          </ListItem>
           <ListItem
             button
             component="a"

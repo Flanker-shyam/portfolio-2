@@ -1,3 +1,5 @@
+// Header.js
+
 import React from "react";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
@@ -23,24 +25,13 @@ const Header = () => {
   return (
     <div className="header">
       <div className="text-body">
-        <Typography variant="h3" gutterBottom style={{ fontFamily: "Encode Sans Expanded" , fontSize:"3.5rem"}}>
+        <Typography variant="h3" gutterBottom className="hello-name">
           Hello! My name is
         </Typography>
-        <Typography
-          variant="h1"
-          component="div"
-          style={{
-            color: "#3f51b5",
-            fontSize: "6rem",
-            fontWeight: "bold",
-            fontFamily: "Encode Sans Expanded",
-            marginTop:"20px",
-            marginBottom:"20px",
-          }}
-        >
+        <Typography variant="h1" component="div" className="name">
           Shyam Sunder.
         </Typography>
-        <Typography variant="h3" gutterBottom style={{ fontFamily: "Encode Sans Expanded" ,fontSize:"3.5rem"}}>
+        <Typography variant="h3" gutterBottom className="software-engineer">
           I'm a software engineer.
         </Typography>
       </div>

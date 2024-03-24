@@ -25,7 +25,7 @@ export default function Resume() {
         marginTop: "30px",
         backgroundColor: "#f8f9fa",
         marginTop: "0px",
-        padding: "50px",
+        padding: "50px 0px",
       }}
     >
       <h2 style={{ margin: "0px" }}>Resume</h2>

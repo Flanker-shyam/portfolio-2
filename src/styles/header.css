@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0;
+  background-color: #f8f9fa;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 220px;
+}
+
+.text-body {
+  align-items: flex-start; /* Align content horizontally to the start (left) */
+  text-align: left; /* Align text to the left */
+}

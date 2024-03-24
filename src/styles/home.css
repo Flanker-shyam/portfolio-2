@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #f8f9fa;
+}
+.head {
+  background-color: #f8f9fa;
+  text-align: center;
+  font-size: 35px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.head-buttons {
+  border: none;
+  color: black;
+  padding: 5px 5px;
+  background-color: #f8f9fa;
+  margin-left: 1px;
+  font-weight: bold;
+}
+
+ a {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+.head-buttons a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Adjust as needed */
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent; /* Initial color of the underline */
+  transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.head-buttons a:hover::after {
+  background-color: #3f51b5; /* Color of the underline on hover */
+}
+
+.logo {
+  border: 3px solid black;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  padding: 10px;
+}
+
+.logo:hover {
+  background-color: #3f51b5;
+  color: white;
+  border: 3px solid #3f51b5;
+}
+  
+.social-icons{
+    margin: 0 10px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+.left-box{
+    margin-right:50px;
+}
+.right-box{
+    max-width: 400px;
+    margin-left: 50px;
+    font-size: medium;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.profile-img{
+    height:400px;
+    padding:50px;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 30%;
+}
+
+#skillsDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+  }
+  
+  #skillsMain {
+    font-size: 10px;
+    display: flex; /* Change to flex */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .techDiv {
+    flex: 1 0 20%;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .techDiv {
+      flex: 1 0 100%;
+      margin-right: 0;
+    }
+  }
+  
+  /* .techDiv {
+    flex: 1 0 20%; 
+    margin-right: 20px; 
+    margin-bottom: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+  }
+   */
+  
+  .techDivTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #333;
+    color:white;
+  }
+  
+  .tech {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100%;
+    background-color: #3f51b5;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in-up {
+    animation: fadeInUp 0.5s ease forwards;
+  }
+  

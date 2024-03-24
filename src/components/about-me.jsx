@@ -10,7 +10,7 @@ const AboutMe = () => {
           <img
             className="profile-img"
             style={{ height: "400px" }}
-            src="/profile2.png"
+            src="/shyam_img_Fotor.png"
           ></img>
         </div>
         <div className="right-box">
